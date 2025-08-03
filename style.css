@@ -1,0 +1,195 @@
+/* Estilo geral */
+body {
+    font-family: sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f6f1; /* cor clara de fundo */
+    color: #2b2b2b;
+}
+
+/* Cabeçalho e rodapé com cores gaúchas */
+header, footer {
+    background: linear-gradient(90deg, #8b0000, #228b22); /* vermelho e verde */
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+/* Menu de navegação */
+nav {
+    background-color: #ffd700; /* amarelo da bandeira gaúcha */
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #8b0000;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #006400; /* verde escuro */
+}
+
+/* Conteúdo principal */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fffdf5; /* bege claro */
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+    border-left: 6px solid #8b0000; /* detalhe vermelho */
+}
+
+/* Biografia visual */
+#biografia-visual {
+    text-align: center;
+    padding: 20px;
+}
+
+#biografia-visual img {
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+    border: 3px solid #8b0000;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+#biografia-visual figcaption {
+    margin-top: 10px;
+    font-style: italic;
+    color: #444;
+}
+
+/* Lista de curiosidades */
+section ul {
+    list-style: square;
+    padding-left: 20px;
+    margin: 10px 0;
+}
+
+/* Tabela da linha do tempo */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    background-color: white;
+}
+
+table th, table td {
+    border: 1px solid #999;
+    padding: 10px;
+    text-align: left;
+}
+
+table th {
+    background-color: #8b0000;
+    color: white;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#modo-toggle {
+    position: absolute;
+    top: 20px;    
+    right: 20px;  
+    padding: 8px 15px;
+    border: none;
+    background-color: #8b0000;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+#modo-toggle:hover {
+    background-color: #a52a2a;
+}
+
+header {
+    position: relative;
+}
+
+#citacao {
+    background-color: #fff8dc;
+    border-left: 5px solid #8b0000;
+    padding: 15px 20px;
+    margin: 20px 0;
+    font-style: italic;
+}
+
+#citacao blockquote {
+    margin: 0;
+    font-size: 1.2em;
+    line-height: 1.5;
+}
+
+#citacao cite {
+    display: block;
+    margin-top: 8px;
+    font-size: 0.9em;
+    color: #555;
+}
+
+.modo-escuro {
+    background-color: #121212;
+    color: white;
+}
+
+.modo-escuro header,
+.modo-escuro footer {
+    background: linear-gradient(90deg, #5c0000, #004d00);
+}
+
+.modo-escuro nav {
+    background-color: #b8860b;
+}
+
+.modo-escuro nav a {
+    color: white;
+}
+
+.modo-escuro main {
+    background-color: #1e1e1e;
+    border-left: 6px solid #b22222;
+}
+
+.modo-escuro table {
+    background-color: #2a2a2a;
+    color: white;
+}
+
+.modo-escuro table th {
+    background-color: #5c0000;
+}
+
+.modo-escuro table tbody tr:nth-child(even) {
+    background-color: #333;
+}
+
+.modo-escuro #biografia-visual img {
+    border-color: #b22222;
+}
+
+.modo-escuro #citacao {
+    background-color: #2a2a2a;
+    border-left: 5px solid #b22222;
+    color: #ccc;
+}
+
+.modo-escuro #citacao blockquote {
+    color: #ddd;
+}
