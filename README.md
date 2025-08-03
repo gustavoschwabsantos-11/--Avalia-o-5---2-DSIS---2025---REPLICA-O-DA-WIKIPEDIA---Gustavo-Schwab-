@@ -1,0 +1,1 @@
+# --Avalia-o-5---2-DSIS---2025---REPLICA-O-DA-WIKIPEDIA---Gustavo-Schwab-
